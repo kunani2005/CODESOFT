@@ -10,9 +10,9 @@ public class GuessTheNumber {
         boolean playAgain = true;
 
         while (playAgain) {
-            int targetNumber = random.nextInt(100) + 1; // Generates number between 1 and 100
+            int targetNumber = random.nextInt(100) + 1; 
             int attempts = 0;
-            int maxAttempts = 7; // Limiting attempts
+            int maxAttempts = 7; 
 
             System.out.println("I'm thinking of a number between 1 and 100.");
             System.out.println("You have " + maxAttempts + " attempts to guess it.");
