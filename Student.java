@@ -14,7 +14,7 @@ public class Student {
 		this.grade = grade;
 	}
 	public Student(String name2, String string, String grade2) {
-		// TODO Auto-generated constructor stub
+		
 	}
 	public String toString() {
 		return "Name: " + name + " , Roll Number: " + rollNumber + ", Grade: " + grade ;
@@ -35,7 +35,7 @@ class  StudentManagementSystem {
     	saveStudentsToFile();
     }
     private void saveStudentsToFile() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 	public void removeStudent(int removeRollNumber) {
