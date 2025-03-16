@@ -39,25 +39,23 @@ public class Currency_Converter {
 			System.out.println("Invalid choice. please select 1 or 2 or 3 or 4.");
 		}
 		scanner.close();
-		// TODO Auto-generated method stub
 	}
 	private static double usdToRupee(double USD) {
-		// TODO Auto-generated method stub
+		
 		return USD * 83.47;
 	}
 	private static double RupeeTousd(double Rupee) {
-		// TODO Auto-generated method stub
+		
 		return Rupee * 0.0119804;
 	}
 
 	private static double euroToRupee(double EURO) {
-		// TODO Auto-generated method stub
+		
 		return EURO *89.10;
 	}
 
 	private static double RupeeToEuro(double Rupee) {
 		return Rupee *0.0113;
-		// TODO Auto-generated method stub
 		
 	}	
 
